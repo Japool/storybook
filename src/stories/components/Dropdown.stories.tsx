@@ -91,5 +91,5 @@ NotificacionToggle.args = {
   badge: "12",
   contentData: notificaciones,
   renderItems: (item, index) => renderNotificationItem(item, index),
-  renderFooter: () => <a href="/">Ver todos</a>,
+  renderFooter: () => <a href="/">Ver todo</a>,
 };

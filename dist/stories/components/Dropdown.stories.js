@@ -81,5 +81,5 @@ exports.NotificacionToggle.args = {
     badge: "12",
     contentData: notificaciones,
     renderItems: function (item, index) { return renderNotificationItem(item, index); },
-    renderFooter: function () { return (0, jsx_runtime_1.jsx)("a", __assign({ href: "/" }, { children: "Ver todos" })); },
+    renderFooter: function () { return (0, jsx_runtime_1.jsx)("a", __assign({ href: "/" }, { children: "Ver todo" })); },
 };

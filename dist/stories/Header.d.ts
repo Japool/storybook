@@ -10,4 +10,4 @@ export interface HeaderProps {
     onCreateAccount: () => void;
 }
 export declare const Header: ({ user, onLogin, onLogout, onCreateAccount, }: HeaderProps) => JSX.Element;
-export {};
+export default Header;

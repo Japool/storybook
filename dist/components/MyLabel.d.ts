@@ -27,3 +27,4 @@ export interface MyLabelProps {
     backgroundColor?: string;
 }
 export declare const MyLabel: ({ allCaps, color, label, size, fontColor, backgroundColor, }: MyLabelProps) => JSX.Element;
+export default MyLabel;

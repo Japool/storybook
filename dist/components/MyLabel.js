@@ -19,3 +19,4 @@ var MyLabel = function (_a) {
     return ((0, jsx_runtime_1.jsx)("span", __assign({ className: "label ".concat(size, " text-").concat(color), style: { color: fontColor, backgroundColor: backgroundColor } }, { children: allCaps ? label.toUpperCase() : label })));
 };
 exports.MyLabel = MyLabel;
+exports.default = exports.MyLabel;

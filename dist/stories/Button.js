@@ -36,3 +36,4 @@ var Button = function (_a) {
     return ((0, jsx_runtime_1.jsx)("button", __assign({ type: "button", className: ["storybook-button", "storybook-button--".concat(size), mode].join(" "), style: { backgroundColor: backgroundColor } }, props, { children: label })));
 };
 exports.Button = Button;
+exports.default = exports.Button;

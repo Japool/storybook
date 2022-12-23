@@ -1,0 +1,9 @@
+.input-container{
+    display: flex;
+    gap: 1;
+    justify-content: space-between;
+    align-items: center;
+}
+input{
+    background: transparent;
+}
